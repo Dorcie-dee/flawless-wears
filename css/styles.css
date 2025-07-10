@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes slideUpFade {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUpFade 0.8s ease-out;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  color: #5b21b6;
+  /* Tailwind purple-800 */
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #f3e8ff;
+  /* Tailwind purple-100 */
+}
+
+.active-nav {
+  background-color: #5b21b6;
+  /* Tailwind purple-800 */
+  color: white;
+}
+
+
+/* Additional custom styles */
+.testimonial-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(128, 0, 128, 0.1);
+  transform: translateY(-5px);
+}
+
+.testimonial-tag {
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover .testimonial-tag {
+  background-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+#stats-section {
+  background-size: 300% 300%;
+  animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hover\:animate-bounce:hover {
+  animation: bounce 1s infinite;
+}
+
+
+/* service page animation */
+.services-grid {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.services-grid.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Individual card animation delay */
+.service-card {
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(128, 0, 128, 0.2);
+}
+
+.service-card img {
+  transition: transform 0.5s ease;
+}
+
+.service-card:hover img {
+  transform: scale(1.05);
+}
+
+
+
+/* login */
+.login-option {
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.login-option:hover {
+  transform: translateY(-5px);
+  border-color: #7e22ce;
+  box-shadow: 0 10px 15px -3px rgba(126, 34, 206, 0.1);
+}
+
+.active-option {
+  border-color: #7e22ce;
+  background-color: #f3e8ff;
+}

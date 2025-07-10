@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flawless Wears | Contact Us</title>
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    body {
+      font-family: 'Play', sans-serif;
+    }
+  </style>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="./js/script.js" defer></script>
+  <script src="./js/slider.js" defer></script>
+
+</head>
+
+
+<body>
+  <header id="main-header" class="fixed top-0 left-0 w-full z-50 bg-white shadow-md transition-all duration-300">
+    <nav class="container mx-auto flex items-center justify-between p-4">
+      <!-- Logo + Brand -->
+      <div class="flex items-center space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-8 h-8 text-purple-700">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="m7.848 8.25 1.536.887M7.848 8.25a3 3 0 1 1-5.196-3 3 3 0 0 1 5.196 3Zm1.536.887a2.165 2.165 0 0 1 1.083 1.839c.005.351.054.695.14 1.024M9.384 9.137l2.077 1.199M7.848 15.75l1.536-.887m-1.536.887a3 3 0 1 1-5.196 3 3 3 0 0 1 5.196-3Zm1.536-.887a2.165 2.165 0 0 0 1.083-1.838c.005-.352.054-.695.14-1.025m-1.223 2.863 2.077-1.199m0-3.328a4.323 4.323 0 0 1 2.068-1.379l5.325-1.628a4.5 4.5 0 0 1 2.48-.044l.803.215-7.794 4.5m-2.882-1.664A4.33 4.33 0 0 0 10.607 12m3.736 0 7.794 4.5-.802.215a4.5 4.5 0 0 1-2.48-.043l-5.326-1.629a4.324 4.324 0 0 1-2.068-1.379M14.343 12l-2.882 1.664" />
+        </svg>
+
+        <span class="text-2xl font-bold text-purple-800">Flawless Wears</span>
+      </div>
+
+      <!-- Hamburger Icon (Mobile) -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="focus:outline-none text-purple-800">
+          <!-- Hamburger (Menu Icon) -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5M3.75 12h16.5M3.75 18.75h16.5" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="flex items-center gap-4 text-sm md:text-base font-medium">
+        <li>
+          <a href="./index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="./about.html" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="./services.html" class="nav-link">Services</a>
+        </li>
+        <li>
+          <a href="./order.html" class="nav-link">Place Order</a>
+        </li>
+        <li>
+          <a href="./contact.html" class="nav-link active-nav">Contact</a>
+        </li>
+        <li>
+          <a href="./login.html" class="nav-link">View Records</a>
+        </li>
+      </ul>
+
+      <!-- Search and Cart -->
+      <div class="hidden md:flex items-center space-x-4">
+        <div class="relative">
+          <input type="text" placeholder="Search styles..."
+            class="px-3 py-1 rounded-md border border-gray-300 text-sm focus:outline-none" />
+          <!-- Search Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 absolute right-2 top-2 text-gray-500" fill="none"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 100-15 7.5 7.5 0 000 15z" />
+          </svg>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <section class="bg-purple-800 text-white py-12">
+    <div class="container mx-auto px-4 text-center mt-[100px]">
+      <h1 class="text-3xl md:text-4xl font-bold mb-4">Contact Our Tailoring Team</h1>
+      <p class="text-xl max-w-2xl mx-auto">We'd love to hear from you! Reach out for inquiries, measurements, or
+        consultations.</p>
+    </div>
+  </section>
+
+
+
+  <!-- Main Content -->
+  <section class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+      <!-- Contact Form -->
+      <section class="bg-white rounded-lg shadow-md p-6 md:p-8">
+        <h2 class="text-2xl font-bold text-purple-800 mb-6">Send Us a Message</h2>
+        <form>
+          <div class="mb-6">
+            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name *</label>
+            <input type="text" id="name" name="name" required
+              class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+          </div>
+
+          <div class="mb-6">
+            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address *</label>
+            <input type="email" id="email" name="email" required
+              class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+          </div>
+
+          <div class="mb-6">
+            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+            <input type="tel" id="phone" name="phone"
+              class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+          </div>
+
+          <div class="mb-6">
+            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject *</label>
+            <select id="subject" name="subject" required
+              class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+              <option value="" disabled selected>Select a subject</option>
+              <option value="order">Order Inquiry</option>
+              <option value="measurement">Measurement Appointment</option>
+              <option value="fabric">Fabric Questions</option>
+              <option value="alteration">Alteration Request</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="mb-6">
+            <label for="message" class="block text-gray-700 font-medium mb-2">Your Message *</label>
+            <textarea id="message" name="message" rows="5" required
+              class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"></textarea>
+          </div>
+
+          <button type="submit"
+            class="w-full bg-purple-700 hover:bg-purple-800 text-white font-bold py-3 px-4 rounded-lg transition-colors">
+            Send Message <i class="fas fa-paper-plane ml-2"></i>
+          </button>
+        </form>
+      </section>
+
+      <!-- Contact Information -->
+      <section>
+        <section class="bg-white rounded-lg shadow-md p-6 md:p-8 mb-8">
+          <h2 class="text-2xl font-bold text-purple-800 mb-6">Our Contact Details</h2>
+
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="bg-purple-100 p-3 rounded-full mr-4">
+                <i class="fas fa-map-marker-alt text-purple-800"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-1">Our Workshop</h3>
+                <p class="text-gray-600">Oko Mantey Street<br>ASHMA District<br>Ashaiman - Official Town</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="bg-purple-100 p-3 rounded-full mr-4">
+                <i class="fas fa-phone-alt text-purple-800"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-1">Call Us</h3>
+                <p class="text-gray-600">
+                  <a href="tel:+1234567890" class="hover:text-purple-700">(+233) 501-324-540</a><br>
+                  <span class="text-sm">Mon-Fri: 9am-5pm | Sat: 10am-2pm</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="bg-purple-100 p-3 rounded-full mr-4">
+                <i class="fas fa-envelope text-purple-800"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-1">Email Us</h3>
+                <p class="text-gray-600">
+                  <a href="mailto:info@yourtailorbusiness.com"
+                    class="hover:text-purple-700">info@flawlesswears.com</a><br>
+                  <span class="text-sm">Response within 24 hours</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Business Hours -->
+        <section class="bg-white rounded-lg shadow-md p-6 md:p-8">
+          <h2 class="text-2xl font-bold text-purple-800 mb-6">Working Hours</h2>
+          <ul class="space-y-3">
+            <li class="flex justify-between border-b pb-2">
+              <span class="font-medium">Monday - Friday</span>
+              <span>9:00 AM - 5:00 PM</span>
+            </li>
+            <li class="flex justify-between border-b pb-2">
+              <span class="font-medium">Saturday</span>
+              <span>10:00 AM - 2:00 PM</span>
+            </li>
+            <li class="flex justify-between">
+              <span class="font-medium">Sunday</span>
+              <span>Closed</span>
+            </li>
+          </ul>
+
+          <div class="mt-8">
+            <h3 class="font-bold text-gray-800 mb-3">Measurement Appointments</h3>
+            <ul class="list-disc pl-5 space-y-2 text-gray-600">
+              <li>Walk-ins welcome but appointments preferred</li>
+              <li>Evening appointments available Tues/Thurs</li>
+              <li>Group/family measurements can be arranged</li>
+            </ul>
+          </div>
+        </section>
+
+      </section>
+    </div>
+
+    <!-- Map -->
+    <section class="mt-16">
+      <h2 class="text-2xl font-bold text-purple-800 mb-6 text-center">Find Our Workshop</h2>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.1351035303937!2d-0.030091325013822594!3d5.6936112942881305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf805a0501c2a7%3A0xc3518b1d349b683b!2sOfficial%20Town%2C%20Ashaiman!5e0!3m2!1sen!2sgh!4v1750813780001!5m2!1sen!2sgh"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white px-4">
+    <div class="container mx-auto max-w-7xl">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 border-t border-gray-800 pt-8">
+
+        <!-- Newsletter Section -->
+        <div class="">
+          <h2 class="text-2xl md:text-3xl font-bold mb-3">Flawless Wears</h2>
+          <p class="text-left text-gray-300 mb-3 max-w-2xl mx-auto">Subscribe to get exclusive offers, and new
+            collection drops.</p>
+          <div class="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+            <input type="email" placeholder="Enter email"
+              class="px-3 pr-[2px] py-3 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 flex-grow">
+            <button
+              class="bg-purple-600 hover:bg-purple-700 px-5 py-3 rounded-lg font-medium transition-colors">Subscribe</button>
+          </div>
+
+          <!-- Socials-->
+          <div class="flex space-x-4 mt-2">
+            <a href="#"
+              class="bg-purple-700 hover:bg-purple-600 w-7 h-7 rounded-full flex items-center justify-center transition-colors">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#"
+              class="bg-purple-700 hover:bg-purple-600 w-7 h-7 rounded-full flex items-center justify-center transition-colors">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#"
+              class="bg-purple-700 hover:bg-purple-600 w-7 h-7 rounded-full flex items-center justify-center transition-colors">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Quick Links -->
+        <div class="max-w-2xl">
+          <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="/" class="text-gray-400 hover:text-purple-400 transition-colors">Home</a>
+            </li>
+            <li>
+              <a href="./about.html" class="text-gray-400 hover:text-purple-400 transition-colors">About</a>
+            </li>
+            <li>
+              <a href="./services.html" class="text-gray-400 hover:text-purple-400 transition-colors">Our Services</a>
+            </li>
+            <li>
+              <a href="./order.html" class="text-gray-400 hover:text-purple-400 transition-colors">Place Order</a>
+            </li>
+            <li>
+              <a href="./contact.html" class="text-gray-400 hover:text-purple-400 transition-colors">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Policies -->
+        <div class="max-w-2xl">
+          <h3 class="text-lg font-semibold mb-4">Policies</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="" class="text-gray-400 hover:text-purple-400 transition-colors">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="" class="text-gray-400 hover:text-purple-400 transition-colors">Alterations Policy</a>
+            </li>
+            <li>
+              <a href="" class="text-gray-400 hover:text-purple-400 transition-colors">Delivery Policy</a>
+            </li>
+            <li>
+              <a href="" class="text-gray-400 hover:text-purple-400 transition-colors">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="" class="text-gray-400 hover:text-purple-400 transition-colors">Cookies Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+          <address class="not-italic text-gray-400 space-y-2">
+            <div class="flex items-start md-3">
+              <i class="fas fa-map-marker-alt mt-1 mr-3 text-purple-400"></i>
+              <p>Ashaiman Official Town <br>Oko Mantey District <br>Greater Accra - Ghana</p>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-phone-alt mr-3 text-purple-400"></i>
+              <a href="tel:+233123456789" class="hover:text-purple-400 transition-colors">+233 (0) 501 324 540</a>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-envelope mr-3 text-purple-400"></i>
+              <a href="mailto:info@flawlesswears.com"
+                class="hover:text-purple-400 transition-colors">info@flawlesswears.com</a>
+            </div>
+          </address>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="border-t border-gray-800 mt-8 pb-8 pt-8 text-center text-white">
+      <p>&copy; 2025 Flawless Wears. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
